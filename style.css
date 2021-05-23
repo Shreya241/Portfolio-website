@@ -32,13 +32,7 @@
     z-index:2;
     position:absolute;
 }
-.content .star{
-    position:absolute;
-    top:0;
-    left:0;
-    z-index:3;
-   
-}
+
 .content-images{
     display: flex;
     justify-content:space-around;
