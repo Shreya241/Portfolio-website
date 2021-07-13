@@ -101,6 +101,7 @@ p{
     right: 0;
   }
   @media screen and (max-width: 900px) {
+      
      .content-images{
          display: inline-block;
         
@@ -113,9 +114,29 @@ p{
      a{
         padding-left: 200px;
      }
-     img{
-         padding:40px;
-     }
+    .content-images img{
+      width: auto;
+      margin: auto;
+      padding: 40px;
+    }
 
     }
-    
+
+    @media screen and (max-width: 638px) {
+        a{
+            padding-left: 130px;
+         }
+     
+     .content .my-img{
+        width: 280px;
+        height: 280px;
+        margin-right: 90px;
+        
+     }
+     p, h2{
+        font-size: 20px;
+        text-align: center;
+        padding-right: 100px;
+    }
+
+    }
